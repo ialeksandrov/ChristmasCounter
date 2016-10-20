@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+TODAY=`date +%j`
+CHRISTMAS=`date -d 25-Dec +%j`
+
+echo "There are $(($CHRISTMAS - $TODAY)) days until Christmas."
