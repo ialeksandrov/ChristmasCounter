@@ -3,4 +3,4 @@
 TODAY=`date +%j`
 CHRISTMAS=`date -d 25-Dec +%j`
 
-echo "There are $(($CHRISTMAS - $TODAY)) days until Christmas."
+echo "There are $((${CHRISTMAS#0} - ${TODAY#0})) days until Christmas."
